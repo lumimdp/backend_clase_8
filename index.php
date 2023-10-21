@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "infovia", "tienda");
+$link = mysqli_connect("localhost", "root", "", "tienda");
 
 if (!$link) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
